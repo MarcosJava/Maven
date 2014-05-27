@@ -12,7 +12,7 @@ import crudPerson.model.Person;
 @Stateless
 public class PersonDao {
 
-	@PersistenceContext(unitName="CrudPerson")
+	@PersistenceContext(unitName="myMaven")
 	private EntityManager em;
 	
 	public void save(Person person){
