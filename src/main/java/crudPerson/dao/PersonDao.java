@@ -25,5 +25,12 @@ public class PersonDao {
 		TypedQuery<Person> query = em.createQuery(q, Person.class);
 		return query.getResultList();
 	}
+	public Person findById(Long id){
+
+		String q = "select p from Person p where p.id=:id";
+		TypedQuery<Person> query = em.createQuery(q, Person.class);
+		query.setParameter("id", id);
+		return query.getSingleResult();
+	}
 	
 }

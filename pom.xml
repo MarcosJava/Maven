@@ -119,6 +119,13 @@
 			<version>1.8.2</version>
 		</dependency>
 
+		<!--Jersey -->
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.8</version>
+		</dependency>
+
 		<!-- Dependências de testes -->
 		<dependency>
 			<groupId>junit</groupId>
