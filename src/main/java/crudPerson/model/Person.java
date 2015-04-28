@@ -14,11 +14,27 @@ public class Person {
 	private Long id;
 	
 	private String name;
-	
+	private String telefone;
 	
 	public Person() {
 		// TODO Auto-generated constructor stub
 	}
+
+	
+	
+
+	public String getTelefone() {
+		return telefone;
+	}
+
+
+
+
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+
+
 
 
 	public Long getId() {
